@@ -1,27 +1,30 @@
 # smartlist-backend
 # 📝 SmartList (Backend)
 
-A simple To-Do list app with AI-powered task suggestions.  
-This repo contains the **frontend** built with React + Tailwind CSS.
+The backend API for the SmartList app.  
+Built with **Node.js + Express + LowDB** for beginners.
 
 ---
 
 ## 🚀 Features
-- Add / edit / delete tasks
-- Basic task list UI
-- Connects to backend API
+- REST API for managing tasks
+- Simple JSON-based database (LowDB)
+- Connects with frontend (React app)
 - Beginner-friendly project
 
 ---
 
 ## 🛠️ Tech Stack
-- React (Vite)
-- Tailwind CSS
-- Axios (for API calls)
+- Node.js
+- Express
+- LowDB
+- CORS
 
 ---
 
 ## ▶️ Getting Started
-1. Clone the repo
-   ```bash
-   git clone https://github.com/<your-username>/smartlist-backend.git
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/smartlist-backend.git
+cd smartlist-backend
